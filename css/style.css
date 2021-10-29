@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+body {
+background-image: url(../images/background.svg);
+font-family: 'Josefin Sans', sans-serif;
+padding: 0;
+margin: 0;
+display: block;
+ }
+
+h1 {
+text-transform: uppercase;
+line-height: 1.1;
+letter-spacing: 11px;
+font-size: 55px;
+}
+h1 span {
+	color: hsl(0, 36%, 70%);
+	font-weight: 220;
+}
+p{
+	color: hsl(0, 36%, 70%);
+	letter-spacing: 1px;
+	line-height: 26px;
+	font-size:17px;
+}
+
+.container {
+	display:flex;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding-left: 70px;
+
+}
+.first {
+	background-image: url('/image/bg-pattern-desktop.svg');
+	width: 60%;
+	max-width: 500px;
+	background-size: cover;
+	background-position: center center;
+	padding: 0 100px 40px;
+}
+
+.second {
+	background-size:cover;
+	background-position: center center;
+	width:50%;
+}
+.logo {
+	margin: 40px 0;
+    padding-bottom: 50px;
+	width: 210px;
+}
+input {
+	background-color: transparent;
+	font-size:17px;
+	border-radius: 50px;
+	padding:16px 30px;
+	width:100%;
+	box-shadow: 2px 5px 10px hsla(0, 36%, 70%, 0.5)
+}
+
+button {
+	border: none;
+	top: 70%;
+	right: 52%;
+	width:100px;
+	height: 50;
+	position: absolute;
+	background-image: linear-gradient(135deg,  hsl(0, 80%, 86%),  hsl(0, 74%, 74%));
+	border-radius: 50px;
+	padding: 15px;
+}
+button:hover{opacity: 0.9;}
+
+.error-icon {
+    display: none;
+	position: absolute;
+	top: 72%;
+	right: 60%;
+}
+.container form.error .error-icon{
+	display: block;
+}
+
+.erp{color: hsl(0, 93%, 68%);
+font-size: 10pt;
+display: none;
+margin-left: 10px;}
+
+.container form.error .erp{
+	display: block;
+}
