@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./1.jpg)
-![](./2.jpg)
+![](./1.jfif)
+![](./2.jfif)
 ### Links
 - Live Site URL: (https://espalmaz.github.io/Prac-1/)
 
